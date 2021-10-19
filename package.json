@@ -1,9 +1,9 @@
 {
-  "name": "esr",
+  "name": "bug",
   "version": "1.0.0",
-  "author": "ESR Staff",
-  "description": "ESportReport",
-  "homepage": "https://www.esportreport.com/",
+  "author": "test",
+  "description": "test",
+  "homepage": "https://www.test.com/",
   "private": true,
   "scripts": {
     "ng": "ng",
