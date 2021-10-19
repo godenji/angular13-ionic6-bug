@@ -1,0 +1,89 @@
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/core.css';
+
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+$default-font: 'Helvetica LT Std';
+*,
+a,
+p,
+span,
+b,
+ul,
+li,
+ol,
+label,
+div,
+header,
+footer,
+section,
+article,
+input,
+textarea,
+select,
+button,
+th,
+td,
+tr,
+thead,
+tbody,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $default-font;
+}
+
+:root {
+  --ion-toolbar-background: #000 !important;
+}
+
+ion-header {
+  //background: var(--ion-color-primary) !important;
+}
+
+ion-toolbar {
+  ion-title,
+  ion-button {
+    color: #fff;
+  }
+}
+
+ion-action-sheet {
+  //--backdrop-opacity: var(0) !important;
+  .action-sheet-title {
+    color: var(--ion-color-warning-shade) !important;
+  }
+  .action-sheet-button {
+    height: 30px !important;
+  }
+
+  // .action-sheet-icon {
+  //   font-size: 16px !important;
+  //   color: unset !important;
+  // }
+}
+
+ion-popover.rink-popover {
+  .popover-content {
+    overflow: hidden;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+form {
+  ion-button[type='submit'] {
+    margin: 12px;
+  }
+}
